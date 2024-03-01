@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank UI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-full lexend-normal">
+    <img id="bg" src="images/background.svg" alt="" class="absolute top-0" />
+
+    <!-- Header section -->
+    <section class="w-full h-full p-8">
+      <header class="rounded-6xl p-4 rounded-full flex justify-between">
+        <img src="images/Logo.svg" alt="" class="" />
+
+        <!-- Hamburger icon -->
+        <div class="bg-lime-500 rounded-full p-2 w-12 h-10 flex items-center">
+          <img src="images/hamburger.svg" alt="" />
+        </div>
+      </header>
+    </section>
+
+    <!-- Welcome section -->
+    <!-- Wrapper -->
+    <section class="w-full h-full p-4 flex flex-col items-center gap-4">
+      <div
+        class="one w-3/4 p-2 flex text-xs text-white rounded-full items-center"
+      >
+        <img src="images/Icon.svg" alt="" />
+        <p class="w-full text-center text-[10px]">
+          No LLC Required , No credit card check
+        </p>
+      </div>
+
+      <h1 class="text-white text-3xl">Welcome to YourBank</h1>
+      <h1 class="text-white text-3xl">Empowering your</h1>
+      <h1 class="text-3xl text-lime-400">Financial Journey</h1>
+      <p class="text-white text-center text-sm font-thin p-4">
+        At YourBank, our mission is to provide comprehensive banking solutions
+        that empower individuals and businesses to achieve their financial
+        goals. We are committed to delivering personalized and innovative
+        services that prioritize our customers' needs.
+      </p>
+
+      <button class="p-4 bg-lime-400 rounded-full">Open Account</button>
+    </section>
+
+    <!-- Images Section -->
+    <!-- Wrapper -->
+    <section class="mt-8 w-full">
+      <section class="h-full flex justify-center relative">
+        <img src="images/income.svg" alt="" class="two absolute top-0 left-2" />
+        <img
+          id="bg2"
+          src="images/background-1.svg"
+          alt=""
+          class="absolute top-2 right-0"
+        />
+        <div
+          id="trans"
+          class="p-8 two mt-4 w-3/4 text-white rounded-lg flex flex-col justify-center gap-2 border"
+        >
+          <p class="text-xs">Your transactions</p>
+          <img src="images/transactions.svg" alt="" />
+          <p class="text-xs">Money Exchange</p>
+          <img src="images/money-exchange.svg" alt="" />
+          <button
+            id="exchange"
+            class="w-full rounded-full text-xs p-2 text-lime-400"
+          >
+            Exchange
+          </button>
+        </div>
+      </section>
+      <div class="px-6 py-2 flex justify-end">
+        <div
+          id="currency"
+          class="rounded-full text-white text-[10px] flex justify-center items-center p-2 gap-2"
+        >
+          <p>Supported currency</p>
+          <img src="images/coins.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <!-- Wrapper -->
+    <section class="w-full p-4 flex flex-col items-center gap-8">
+      <div class="flex flex-col items-center justify-center gap-4">
+        <h1 class="text-4xl text-white">
+          Our <span class="text-lime-400">Products</span>
+        </h1>
+        <p class="text-xs font-thin text-white text-center">
+          Discover a range of comprehensive and customizable banking products at
+          YourBank, designed to suit your unique financial needs and aspirations
+        </p>
+
+        <div class="w-3/4 p-2 flex text-xs border rounded-full">
+          <button class="bg-lime-400 text-black p-4 rounded-full">
+            For individuals
+          </button>
+          <button class="text-black text-white p-4 rounded-full">
+            For Businesses
+          </button>
+        </div>
+      </div>
+
+      <ul class="text-center flex flex-col items-center justify-center gap-4">
+        <li class="flex flex-col items-center gap-4">
+          <img src="images/bag.svg" alt="" />
+          <h3 class="text-xl text-white">Checking Accounts</h3>
+          <p class="text-white font-thin text-sm">
+            Enjoy easy and convenient access to your funds with our range of
+            checking account options. Benefit from features such as online and
+            mobile banking, debit cards, and free ATM access.
+          </p>
+          <div class="w-full h-[1px] bg-gray-600"></div>
+        </li>
+
+        <li class="flex flex-col items-center gap-4">
+          <img src="images/box.svg" alt="" />
+          <h3 class="text-xl text-white">Savings Accounts</h3>
+          <p class="text-white font-thin text-sm">
+            Build your savings with our competitive interest rates and flexible
+            savings account options. Whether you're saving for a specific goal
+            or want to grow your wealth over time, we have the right account for
+            you.
+          </p>
+          <div class="w-full h-[1px] bg-gray-600"></div>
+        </li>
+
+        <li class="flex flex-col items-center gap-4">
+          <img src="images/cash.svg" alt="" />
+          <h3 class="text-xl text-white">Loan and Mortgages</h3>
+          <p class="text-white font-thin text-sm">
+            Realize your dreams with our flexible loan and mortgage options.
+            From personal loans to home mortgages, our experienced loan officers
+            are here to guide you through the application process and help you
+            secure the funds you need.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Use Cases -->
+    <!-- Wrapper -->
+    <section class="w-full p-4">
+
+      <section class="flex flex-col items-center justify-center text-center">
+        <h1 class="text-3xl text-lime-400">Use Cases</h1>
+        <p class="text-white text-sm font-thin">
+          At YourBank, we cater to the diverse needs of individuals and
+          businesses alike, offering a wide range of financial solutions
+        </p>
+      </section>
+
+    </section>
+  
+    <!-- For Individuals -->
+    <!-- Wrapper -->
+        <section id="grid1" class="w-full p-4 relative rounded">
+            <img id="img1" src="images/grid.svg" alt="" class="absolute top-0">
+            <div class="item w-full h-full rounded-xl flex flex-col items-center justify-center ">
+                <img src="images/manage.svg" alt="">
+            </div>
+            <div class="item w-full h-full rounded-xl flex flex-col items-center justify-center ">
+                <img src="images/save.svg" alt="">
+            </div>
+            <div class="item w-full h-full rounded-xl flex flex-col items-center justify-center ">
+                <img src="images/owner.svg" alt="">
+            </div>
+            <div class="item w-full h-full rounded-xl flex flex-col items-center justify-center ">
+                <img src="images/education.svg" alt="">
+            </div>
+        </section>
+
+  </body>
+</html>

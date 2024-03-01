@@ -1,0 +1,42 @@
+body ,div.two {
+    background: #1c1c1c;
+}
+header {
+    background: rgb(38, 38, 38, 1);
+}
+#bg {
+    z-index: -1;
+}
+div.one {
+    background: rgba(38, 38, 38, 1);
+}
+
+.lexend-normal {
+
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+  }
+#bg2 {
+    z-index: -1;
+}
+#exchange , #currency {
+    background: rgba(34, 37, 27, 1);
+}
+#trans {
+    border-color: #222020;
+}
+#grid {
+    background: rgba(28, 28, 28, 1);
+}
+#img1 {
+    z-index: -1;
+}
+#grid1 {
+    background: rgba(28, 28, 28, 1);
+}
+.item {
+    background: (26, 26, 26, 1);
+}
